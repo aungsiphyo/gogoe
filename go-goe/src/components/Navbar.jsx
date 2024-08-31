@@ -4,7 +4,7 @@ import { MdDarkMode } from "react-icons/md";
 import { IoSunny } from "react-icons/io5";
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`bg-white dark:bg-gray-900 shadow-md p-4 fixed w-full`}>
+    <nav className={`bg-white dark:bg-gray-900 shadow-md p-4 fixed z-10 w-full`}>
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-lg font-bold text-red-600 dark:text-red-600">
           GO GOE
