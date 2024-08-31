@@ -24,7 +24,7 @@ const PricingTable = () => {
   ];
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-6 lg:px-24">
         <div className='flex flex-col items-center justify-center text-5xl dark:text-white text-center mb-16 relative'>Pricing</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {packages.map((pkg, index) => (

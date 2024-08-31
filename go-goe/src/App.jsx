@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Feature from './components/Feature';
 import './index.css'; // Ensure Tailwind CSS is imported
 import PriceList from './components/PriceList';
+import TeamAvatarsGrid from './components/TeamAvatarsGrid';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Home />
       <Feature />
       <PriceList />
+      <TeamAvatarsGrid />
     </div>
   );
 };

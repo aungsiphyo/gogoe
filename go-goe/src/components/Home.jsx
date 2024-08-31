@@ -4,7 +4,7 @@ import BotImg from '../assets/img/bot.jpg';
 
 const TwoColumnLayout = () => {
   return (
-    <section className="container mx-auto p-6">
+    <section className="container mx-auto p-6 lg:px-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-32">
         <div className="p-6 rounded-lg">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Introduction</h2>

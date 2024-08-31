@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className={`bg-white dark:bg-gray-900 shadow-md p-4 fixed z-10 w-full`}>
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between lg:px-24">
         <div className="text-lg font-bold text-red-600 dark:text-red-600">
           GO GOE
         </div>

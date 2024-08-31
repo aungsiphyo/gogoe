@@ -36,7 +36,7 @@ const CardGrid = () => {
   ];
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-6 lg:px-24">
     <div className='flex flex-col items-center justify-center text-5xl dark:text-white text-center mb-16 relative'>Features</div>
     {/* after:content-[""] after:w-36 after:h-1 after:bg-red-800 after:absolute after:bottom-[-15px] after:left-0 after:inline-block after:px-auto after:mx-auto */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
