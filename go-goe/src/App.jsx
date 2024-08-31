@@ -6,7 +6,7 @@ import Feature from './components/Feature';
 import './index.css'; // Ensure Tailwind CSS is imported
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
