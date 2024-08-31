@@ -3,8 +3,13 @@ import React, { useState } from 'react';
 import { MdDarkMode } from "react-icons/md";
 import { IoSunny } from "react-icons/io5";
 
-const Navbar = ({darkMode,toggleDarkMode}) => {
-  
+const Navbar = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+    document.documentElement.classList.toggle('dark');
+  };
 
   return (
     <nav className={`bg-white dark:bg-gray-900 shadow-md p-4 fixed w-full`}>

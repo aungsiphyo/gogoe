@@ -12,25 +12,25 @@ const CardGrid = () => {
       title: 'Light Weight',
       description: 'Total Weight - 2 Kilo',
       imageUrl: <GiWeight />,
-      color: 'text-7xl dark:text-blue-900 ',
+      color: 'text-7xl text-blue-900 ',
     },
     {
       title: 'Long Time Usage',
       description: 'At least 30 Minutes',
       imageUrl: <IoTimerSharp />,
-      color: 'text-7xl dark:text-red-900',
+      color: 'text-7xl text-red-900',
     },
     {
       title: 'Bluetooth Control',
       description: 'Can Control with Bluetooth RC Controller',
       imageUrl: <FaBluetooth />,
-      color: 'text-6xl dark:text-blue-900 mt-3',
+      color: 'text-6xl text-blue-900 mt-3',
     },
     {
       title: 'Easy Charging',
       description: 'Charge easily with USE-3.0',
       imageUrl: <IoIosBatteryCharging />,
-      color: 'text-7xl dark:text-green-900',
+      color: 'text-7xl text-green-900',
     },
     // Add more card objects as needed
   ];
