@@ -30,6 +30,9 @@ const Navbar = () => {
           <li>
             <a href="#contact" className="text-gray-900 dark:text-gray-300 hover:underline">Contact</a>
           </li>
+          <li>
+            <a href="#contact" className="text-gray-900 dark:text-gray-300 hover:underline">Bot Control</a>
+          </li>
         </ul>
         <div>
             <button

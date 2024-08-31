@@ -7,6 +7,7 @@ import './index.css'; // Ensure Tailwind CSS is imported
 import PriceList from './components/PriceList';
 import TeamAvatarsGrid from './components/TeamAvatarsGrid';
 import ContactUs from './components/ContactUs';
+import BotControl from './components/BotControl';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <PriceList />
       <TeamAvatarsGrid />
       <ContactUs />
+      <BotControl />
     </div>
   );
 };
