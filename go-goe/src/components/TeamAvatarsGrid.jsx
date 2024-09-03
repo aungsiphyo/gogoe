@@ -25,7 +25,7 @@ const TeamAvatarsGrid = () => {
   ];
 
   return (
-    <div className="container mx-auto p-6 lg:px-24">
+    <div className="container mx-auto p-6 lg:px-24 pt-16" id='contact'>
         <div className='flex flex-col items-center justify-center text-5xl dark:text-white text-center mb-16 relative'>Our Team Members</div>
       <div className="grid grid-cols-2 gap-6 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
         {teamMembers.map((member, index) => (

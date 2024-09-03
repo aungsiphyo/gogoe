@@ -12,26 +12,26 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`bg-white dark:bg-gray-900 shadow-md p-4 fixed z-10 w-full`}>
+    <nav className={`bg-white dark:bg-gray-900 shadow-md p-2 z-10 w-full fixed`}>
       <div className="container mx-auto flex items-center justify-between lg:px-24">
         <div className="text-lg font-bold text-red-600 dark:text-red-600">
-          GO GOE
+          <a href="/">GO GOE</a>
         </div>
         <ul className="flex space-x-4">
           <li>
             <a href="#home" className="text-red-600 dark:text-dark-600 hover:underline">Home</a>
           </li>
           <li>
-            <a href="#about" className="text-gray-900 dark:text-gray-300 hover:underline">Features</a>
+            <a href="#feature" className="text-gray-900 dark:text-gray-300 hover:underline">Features</a>
           </li>
           <li>
-            <a href="#contact" className="text-gray-900 dark:text-gray-300 hover:underline">Pricing</a>
+            <a href="#pricing" className="text-gray-900 dark:text-gray-300 hover:underline">Pricing</a>
           </li>
           <li>
             <a href="#contact" className="text-gray-900 dark:text-gray-300 hover:underline">Contact</a>
           </li>
           <li>
-            <a href="#contact" className="text-gray-900 dark:text-gray-300 hover:underline">Bot Control</a>
+            <a href="#control" className="text-gray-900 dark:text-gray-300 hover:underline">Bot Control</a>
           </li>
         </ul>
         <div>
