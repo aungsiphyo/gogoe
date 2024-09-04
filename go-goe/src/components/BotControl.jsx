@@ -9,10 +9,10 @@ import CuttingMeasurement from './CuttingMeasurement';
 const BotControl = () => {
 
   return (
-    <div className={`min-h-screen text-white transition-all duration-300 pt-16`} id='control'>
+    <div className={`min-h-screen text-white transition-all duration-300 pt-8`} id='control'>
       <div className="container mx-auto p-4">
-        <div className='flex flex-col items-center justify-center text-5xl text-black dark:text-white text-center mb-16 relative'>GO GOE Control</div>
-            <div className="bluetooth flex items-center justify-around">
+        <div className='flex flex-col items-center justify-center text-5xl text-black dark:text-white text-center relative mb-16 md:mb-0'>GO GOE Control</div>
+            <div className="bluetooth flex flex-col md:flex-row items-center justify-around">
                 <div className="remote flex items-start justify-center gap-20">
                     <div className="flex flex-col justify-center items-center w-auto">
                         <div className="relative my-14">

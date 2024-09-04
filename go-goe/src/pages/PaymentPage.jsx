@@ -3,7 +3,7 @@ import Payment from '../components/Payment'
 
 const PaymentPage = () => {
   return (
-    <Payment />
+      <Payment/>
   )
 }
 

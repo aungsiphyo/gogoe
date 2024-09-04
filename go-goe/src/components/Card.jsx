@@ -3,7 +3,7 @@ import React from 'react';
 
 const Card = ({ title, description, imageUrl, color }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col justify-center items-center">
+    <div className="bg-white fill shadow-lg rounded-lg overflow-hidden flex flex-col justify-center items-center">
         <div className="icon p-auto h-18 my-5">
             <div className={color}>{imageUrl}</div>
         </div>

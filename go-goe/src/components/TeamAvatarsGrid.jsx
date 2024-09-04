@@ -14,17 +14,17 @@ import DV from '../assets/teamMembers/dv.jpg';
 
 const TeamAvatarsGrid = () => {
   const teamMembers = [
-    { name: 'Aung Si Phyo', imageUrl: ASP },
-    { name: 'Min Ba Maw', imageUrl: MBM },
-    { name: 'Min Khaing Thant', imageUrl: MKT },
-    { name: 'Khant Htet Paing', imageUrl: KHP },
-    { name: 'Min Myat Thu', imageUrl: MMT },
-    { name: 'Aung Zay Phyo', imageUrl: AZP },
-    { name: 'Htet Lin Htoo', imageUrl: HLH },
-    { name: 'Kyaw Thura Aung', imageUrl: KTRA },
-    { name: 'Mamad Foyas', imageUrl: MMFY },
-    { name: 'Naing Tayza', imageUrl: NTZ },
-    { name: 'David Vanjero', imageUrl: DV },
+    { name: 'Aung Si Phyo', imageUrl: ASP, position: "(Leader & Coder)"},
+    { name: 'Min Ba Maw', imageUrl: MBM, position: "(Coder)"},
+    { name: 'Min Khaing Thant', imageUrl: MKT, position: "(Technician)"},
+    { name: 'Khant Htet Paing', imageUrl: KHP, position: "(Electronic Leader)"},
+    { name: 'Min Myat Thu', imageUrl: MMT, position: "(Electronic)"},
+    { name: 'Aung Zay Phyo', imageUrl: AZP, position: "(Electronic)"},
+    { name: 'Htet Lin Htoo', imageUrl: HLH, position: "(Graphic Designer)"},
+    { name: 'Kyaw Thura Aung', imageUrl: KTRA, position: "(Quality Control)"},
+    { name: 'Mamad Foyas', imageUrl: MMFY, position: "(Quality Control)"},
+    { name: 'Naing Tayza', imageUrl: NTZ, position: "(Accountant)"},
+    { name: 'David Vanjero', imageUrl: DV, position: "(Documentation)"},
   ];
 
   return (
@@ -36,6 +36,7 @@ const TeamAvatarsGrid = () => {
             key={index}
             name={member.name}
             imageUrl={member.imageUrl}
+            position={member.position}
           />
         ))}
       </div>
