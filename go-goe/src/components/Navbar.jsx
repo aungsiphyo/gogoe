@@ -56,7 +56,7 @@ const Navbar = () => {
             </button>
           </div>
           <div className="main-navbar flex justify-between items-center lg:py-10">
-            <div className="text-xl font-bold ml-12 sm:ml-0">
+            <div className="text-gray-950 dark:text-white text-xl font-bold ml-12 sm:ml-0">
                 ‌<Link to={"/"} href="#home">GO GOE</Link>
             </div>
             {/* Center section */} 
