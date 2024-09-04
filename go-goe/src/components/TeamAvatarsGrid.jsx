@@ -8,20 +8,23 @@ import MKT from '../assets/teamMembers/mkt.jpg';
 import MMFY from '../assets/teamMembers/mmfy.jpg';
 import MMT from '../assets/teamMembers/mmt.jpg';
 import NTZ from '../assets/teamMembers/ntz.jpg';
+import MBM from '../assets/teamMembers/mbm.jpg';
+import HLH from '../assets/teamMembers/hlh.jpg';
+import DV from '../assets/teamMembers/dv.jpg';
 
 const TeamAvatarsGrid = () => {
   const teamMembers = [
     { name: 'Aung Si Phyo', imageUrl: ASP },
-    { name: 'Min Ba Maw', imageUrl: 'https://via.placeholder.com/150' },
+    { name: 'Min Ba Maw', imageUrl: MBM },
     { name: 'Min Khaing Thant', imageUrl: MKT },
     { name: 'Khant Htet Paing', imageUrl: KHP },
     { name: 'Min Myat Thu', imageUrl: MMT },
     { name: 'Aung Zay Phyo', imageUrl: AZP },
-    { name: 'Htet Lin Htoo', imageUrl: 'https://via.placeholder.com/150' },
+    { name: 'Htet Lin Htoo', imageUrl: HLH },
     { name: 'Kyaw Thura Aung', imageUrl: KTRA },
     { name: 'Mamad Foyas', imageUrl: MMFY },
     { name: 'Naing Tayza', imageUrl: NTZ },
-    { name: 'David Vanjero', imageUrl: 'https://via.placeholder.com/150' },
+    { name: 'David Vanjero', imageUrl: DV },
   ];
 
   return (
