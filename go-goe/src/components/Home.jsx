@@ -1,11 +1,12 @@
 // src/components/TwoColumnLayout.jsx
 import React from 'react';
-import BotImg from '../assets/img/bot.jpg';
+import BotImg from '../assets/img/bot.png';
+import BotImgD from '../assets/img/bot-d.png'
 
 const TwoColumnLayout = () => {
   return (
     <section className="container mx-auto p-6 lg:px-24" id='home'>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 items-center justify-between">
         <div className="p-6 rounded-lg">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Introduction</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-8">
@@ -18,8 +19,8 @@ const TwoColumnLayout = () => {
             Contact Us
         </a>
         </div>
-        <div className="p-6 rounded-lg overflow-hidden">
-          <img src={BotImg} alt="" width="600px" />
+        <div className="p-6 rounded-lg overflow-hidden mx-auto">
+          <img src={BotImg} alt="" width="500px" />
         </div>
       </div>
     </section>

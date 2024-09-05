@@ -7,7 +7,7 @@ import KTRA from '../assets/teamMembers/ktra.jpg';
 import MKT from '../assets/teamMembers/mkt.jpg';
 import MMFY from '../assets/teamMembers/mmfy.jpg';
 import MMT from '../assets/teamMembers/mmt.jpg';
-import NTZ from '../assets/teamMembers/ntz.jpg';
+import NTZ from '../assets/teamMembers/ntz.webp';
 import MBM from '../assets/teamMembers/mbm.jpg';
 import HLH from '../assets/teamMembers/hlh.jpg';
 import DV from '../assets/teamMembers/dv.jpg';
@@ -20,11 +20,11 @@ const TeamAvatarsGrid = () => {
     { name: 'Khant Htet Paing', imageUrl: KHP, position: "(Electronic Leader)"},
     { name: 'Min Myat Thu', imageUrl: MMT, position: "(Electronic)"},
     { name: 'Aung Zay Phyo', imageUrl: AZP, position: "(Electronic)"},
-    { name: 'Htet Lin Htoo', imageUrl: HLH, position: "(Graphic Designer)"},
+    { name: 'Htet Linn Htoo', imageUrl: HLH, position: "(Graphic Designer)"},
     { name: 'Kyaw Thura Aung', imageUrl: KTRA, position: "(Quality Control)"},
     { name: 'Mamad Foyas', imageUrl: MMFY, position: "(Quality Control)"},
     { name: 'Naing Tayza', imageUrl: NTZ, position: "(Accountant)"},
-    { name: 'David Vanjero', imageUrl: DV, position: "(Documentation)"},
+    { name: 'David Van Ro Ceu', imageUrl: DV, position: "(Documentation)"},
   ];
 
   return (
