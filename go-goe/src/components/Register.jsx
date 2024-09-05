@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 const RegisterPage = () => {
 
   return (
-    <div className={`flex min-h-screen mt-5`}>
-      <div className="w-full max-w-4xl mx-auto flex items-center justify-between flex-col md:flex-row">
+    <div className={`flex min-h-screen transition-colors duration-300 mt-16 md:mt-5`}>
+      <div className="w-full max-w-4xl mx-auto flex flex-col md:flex-row">
         <div className="sm:hidden md:block md:w-1/2">
           <img src={BotImg} alt="Register" className="w-full object-cover" />
         </div>

@@ -62,7 +62,7 @@ const ContactUs = () => {
             Send
           </button>
         </form>
-          <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+          {/* <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">Information</h2>
             <p className="mt-2 text-gray-700 dark:text-gray-300">
               This is a responsive info component with Tailwind CSS. It supports both light and dark modes.
@@ -72,7 +72,7 @@ const ContactUs = () => {
               <li className="text-gray-700 dark:text-gray-300">Light and Dark Mode Support</li>
               <li className="text-gray-700 dark:text-gray-300">Tailwind CSS Styling</li>
             </ul>
-          </div>
+          </div> */}
     </section>
   );
 };

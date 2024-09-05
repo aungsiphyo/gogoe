@@ -5,7 +5,7 @@ import BotImg from '../assets/img/bot.png';
 const Login = () => {
 
   return (
-    <div className={`flex min-h-screen transition-colors duration-300 mt-5`}>
+    <div className={`flex min-h-screen transition-colors duration-300 mt-16 md:mt-5`}>
       <div className="w-full max-w-4xl mx-auto flex flex-col md:flex-row">
         {/* Login Content */}
         <div className="md:w-1/2 flex items-center justify-center p-6 md:p-12">
